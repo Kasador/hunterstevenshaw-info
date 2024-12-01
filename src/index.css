@@ -6,3 +6,13 @@
 body {
   background-color: #FAFAD2;
 }
+
+.progress-bar { /* top progress bar on scroll */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: #E76768;
+  transform-origin: 0%;
+}
