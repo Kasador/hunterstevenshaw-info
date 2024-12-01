@@ -7,22 +7,22 @@ export default {
     ],
     theme: {
       extend: {
-        colors: { // color object for define colors for tailwind-CSS
+        colors: { // color object for defining colors for Tailwind-CSS
           light: { // light mode
-            primary: '#C54A45',
-            secondary: '#CCCCCC',
-            accent: '#4F90FC',
-            background: '#EDEDED',
-            surface: '#F3F4F6',
-            text: '#2B2B2B',
+            primary: '#E76768', // Soft Red
+            secondary: '#FAFAD2', // Light Yellow
+            accent: '#FDFED5', // Pale Cream
+            background: '#E1D9B8', // Beige
+            surface: '#F3F4F6', // Neutral light surface
+            text: '#2B2B2B', // Dark gray
           },
           dark: { // dark mode
-            primary: '#A43631',
-            secondary: '#E4A5A5',
-            accent: '#2563EB',
-            background: '#1F2937',
-            surface: '#374151',
-            text: '#F9FAFB',
+            primary: '#D66364', // Deeper Red
+            secondary: '#E4A5A5', // Muted Pinkish
+            accent: '#CCCCCC', // Gray
+            background: '#1F2937', // Dark gray
+            surface: '#374151', // Neutral dark surface
+            text: '#F9FAFB', // Light gray for text
           },
         },
       },
