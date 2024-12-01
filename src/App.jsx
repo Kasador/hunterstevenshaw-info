@@ -4,7 +4,7 @@ const App = () => {
 
   return (
     <>
-      <h1 className='p-10 text-primary bg-accent'>TailwindCSS works</h1>
+      <h1 className='p-10 text-primary bg-secondary'>TailwindCSS works</h1>
     </>
   )
 }
