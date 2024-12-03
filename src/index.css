@@ -3,17 +3,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./fonts/Parkinsans-VariableFont_wght.ttf) format('truetype');
+}
+
 body {
   background-color: #FAFAD2;
+  font-family: MyFont, arial;
 }
 
 .progress-bar { /* top progress bar on scroll */
   position: fixed;
   top: 0;
-  left: 160px;
+  left: 224px;
   right: 0;
   height: 10px;
   background: #E76768;
   transform-origin: 0%;
 }
 
+.active {
+  background-color: #2B2B2B; /* Dark gray */
+  border-top-left-radius: 48px;
+  border-bottom-left-radius: 48px;
+}
+
+.NavLinks, .language {
+  cursor: pointer;
+}
+
+.NavLinks {
+  width: 220px;
+
+  transition: all 0.1s;
+}
+
+.NavLinks:hover {
+  border-top-left-radius: 48px;
+  border-bottom-left-radius: 48px;
+}
+
+.me {
+  width: 300px;
+}
