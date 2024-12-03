@@ -7,8 +7,8 @@ import { FaTree, FaAddressCard, FaFolderOpen, FaIdCardAlt } from "react-icons/fa
 
 const Nav = () => {
     return (
-        <div className="w-10">
-            <ul className="NavItems">
+        <div className="w-40 h-full bg-primary fixed border-r-4 border-text">
+            <ul className="NavItems flex flex-col justify-items-center items-center ">
                 <Link
                     activeClass="active"
                     to="home"
@@ -16,7 +16,7 @@ const Nav = () => {
                     smooth={true}
                     offset={-40}
                     duration= {1000}>
-                        <div className="NavLinks">
+                        <div className="NavLinks flex flex-col items-center p-5 text-3xl text-background">
                             <FaTree />
                             Home
                         </div>
@@ -28,7 +28,7 @@ const Nav = () => {
                     smooth={true}
                     offset={-40}
                     duration= {1000} >
-                        <div className="NavLinks">
+                        <div className="NavLinks flex flex-col items-center p-5 text-3xl text-background">
                             <FaAddressCard />
                             About
                         </div>
@@ -40,7 +40,7 @@ const Nav = () => {
                     smooth={true}
                     offset={-40}
                     duration= {500} >
-                        <div className="NavLinks">
+                        <div className="NavLinks flex flex-col items-center p-5 text-3xl text-background">
                             <FaFolderOpen />
                             Projects
                         </div>
@@ -52,16 +52,12 @@ const Nav = () => {
                     smooth={true}
                     offset={-40}
                     duration= {500} >
-                        <div className="NavLinks">
+                        <div className="NavLinks flex flex-col items-center p-5 text-3xl text-background">
                             <FaIdCardAlt />
                             Contact
                         </div>
                 </Link>
             </ul>
-            <p className=''> asdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kaj sdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl ;akfjdsasd fjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkj d;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkj d;lasfjd;las fjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdf jl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;la sf jdl;akfjdsa sdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfd j;lasdfj;alsfkjd;las fjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;a lsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsd fl;akdjfsl;akfjds;lakfdj;lasd fj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;l asdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsf kjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;la kfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjd sasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;ak fjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjf sasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjds</p>
-            <p className=''> asdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kaj sdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl ;akfjdsasd fjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkj d;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkj d;lasfjd;las fjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdf jl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;la sf jdl;akfjdsa sdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfd j;lasdfj;alsfkjd;las fjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;a lsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsd fl;akdjfsl;akfjds;lakfdj;lasd fj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;l asdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsf kjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;la kfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjd sasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;ak fjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjf sasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjds</p>
-            <p className=''> asdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kaj sdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl ;akfjdsasd fjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkj d;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkj d;lasfjd;las fjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdf jl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;la sf jdl;akfjdsa sdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfd j;lasdfj;alsfkjd;las fjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;a lsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsd fl;akdjfsl;akfjds;lakfdj;lasd fj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;l asdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsf kjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;la kfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjd sasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;ak fjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjf sasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjds</p>
-            <p className=''> asdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kaj sdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl ;akfjdsasd fjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkj d;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkj d;lasfjd;las fjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdf jl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;la sf jdl;akfjdsa sdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfd j;lasdfj;alsfkjd;las fjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;a lsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsd fl;akdjfsl;akfjds;lakfdj;lasd fj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;l asdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsf kjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;la kfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjd sasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;ak fjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjf sasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjdsasdfjl;kajsdfl;akdjfsl;akfjds;lakfdj;lasdfj;alsfkjd;lasfjd;lasfjdl;akfjds</p>
         </div>
     )
 }

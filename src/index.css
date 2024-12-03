@@ -10,9 +10,10 @@ body {
 .progress-bar { /* top progress bar on scroll */
   position: fixed;
   top: 0;
-  left: 0;
+  left: 160px;
   right: 0;
   height: 10px;
   background: #E76768;
   transform-origin: 0%;
 }
+
