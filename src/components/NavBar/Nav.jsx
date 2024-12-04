@@ -1,5 +1,5 @@
 import { React, useState} from 'react';
-import { motion } from "motion/react"
+import { motion } from "motion/react" // for transitions >>> animations 
 import { Link } from "react-scroll";
 import en from '/images/usa.png';
 import es from '/images/spain.png';
@@ -89,13 +89,19 @@ const Nav = () => {
                         </div>
                 </Link>
                 <li className='flex absolute bottom-6'>
-                    <img 
+                    <motion.img 
                         className='w-20 pr-2 language'
                         src={en}
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 10 }}
                         alt="English" />
-                    <img 
+                    <motion.img 
                         className='w-20 pl-2 language'
                         src={es}
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 10 }}
                         alt="Spanish" />
                 </li>
             </ul>
